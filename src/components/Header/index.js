@@ -8,7 +8,9 @@ function Topo() {
   return (
     <AreaHeader>
       <div className="container">
-        <div className="logo">LOGOMARCA</div>
+        <div className="logo">
+          <img src="icons8-trotting-horse-50.png" />
+        </div>
 
         <nav>
           <ul>

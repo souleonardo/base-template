@@ -14,6 +14,7 @@ export const AreaHeader = styled.div`
   .logo {
     flex: 1;
   }
+
   nav {
     ul {
       display: flex;
