@@ -8,4 +8,5 @@ export const TitlePage = styled.h1`
   font-size: 20px;
   color: black;
   display: flex;
+  text-decoration: none;
 `

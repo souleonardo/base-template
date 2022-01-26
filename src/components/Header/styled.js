@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import styledComponents from 'styled-components'
 
 export const AreaHeader = styled.div`
   height: 60px;
@@ -23,6 +22,12 @@ export const AreaHeader = styled.div`
     li {
       list-style: none;
       margin-left: 20px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
     }
   }
 `
