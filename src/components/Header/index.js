@@ -2,6 +2,8 @@ import React from 'react'
 
 import { AreaHeader } from './styled'
 
+import { Link } from 'react-router-dom'
+
 // import { Container } from './styles';
 
 function Topo() {
@@ -14,8 +16,15 @@ function Topo() {
 
         <nav>
           <ul>
-            <li>Configurações</li>
-            <li>Sair</li>
+            <li>
+              <Link to="/">Início</Link>
+            </li>
+            <li>
+              <Link to="/config">Configurações</Link>
+            </li>
+            <li>
+              <Link to="/logout">Sair</Link>
+            </li>
           </ul>
         </nav>
       </div>
