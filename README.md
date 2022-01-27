@@ -3,4 +3,5 @@
 <ul>
   <li>ReactJS</>
   <li>Styled Components</li> 
+  <li>Material-icons</li> 
 </ul>
