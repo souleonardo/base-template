@@ -5,7 +5,7 @@ import { AreaFooter } from './styled'
 function Footer() {
   return (
     <AreaFooter>
-      <div>Todos os direitos reservados.</div>
+      <div>Desenvolvido por Leonardo S. com React</div>
     </AreaFooter>
   )
 }
