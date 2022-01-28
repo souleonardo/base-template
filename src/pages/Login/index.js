@@ -1,7 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes, Router, Link } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 import { AreaLogin } from './styled'
-import { BrowserRouter, Link } from 'react-router-dom'
 
 import { BtnDefaultIcons, BtnDefault } from '../../components/Styled'
 import FacebookIcon from '@mui/icons-material/Facebook'
@@ -11,7 +10,6 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew'
 function Login() {
   return (
     <BrowserRouter>
-<<<<<<< HEAD
       <Routes>
         <Route
           extact
@@ -93,41 +91,6 @@ function Login() {
           }
         ></Route>
       </Routes>
-=======
-      <AreaLogin>
-        <h1>Faça login em sua conta</h1>
-
-        <BtnDefaultIcons>
-          <FacebookIcon />
-          <div className="center">Fazer login com o Facebook</div>
-        </BtnDefaultIcons>
-
-        <BtnDefaultIcons>
-          <GoogleIcon />
-          <div className="center">Fazer login com o Google</div>
-        </BtnDefaultIcons>
-
-        <p>OU</p>
-
-        <form>
-          <div className="form-input">
-            <label>E-mail</label>
-            <input type="email"></input>
-          </div>
-
-          <div className="form-input">
-            <label>Senha</label>
-            <input type="password"></input>
-          </div>
-        </form>
-        <BtnDefault>Entrar</BtnDefault>
-
-        <div className="footer-login">
-          Não tem uma conta?
-          <Link to="/registrar">Registre-se</Link>
-        </div>
-      </AreaLogin>
->>>>>>> 43c7fc2b1b324dbe2d4f90fbb1329267c020cf5b
     </BrowserRouter>
   )
 }
