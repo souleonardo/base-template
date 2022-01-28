@@ -56,7 +56,6 @@ export const AreaLogin = styled.div`
       }
     }
   }
-
   .footer-login {
     font-size: 13px;
 
@@ -66,10 +65,6 @@ export const AreaLogin = styled.div`
       color: #4e129c;
       transition: 0.4s;
       cursor: pointer;
-
-      &:hover {
-        color: #7d2ae8;
-      }
     }
   }
 `
