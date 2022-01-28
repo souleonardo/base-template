@@ -43,4 +43,15 @@ export const AreaLogin = styled.div`
       }
     }
   }
+  .footer-login {
+    font-size: 13px;
+
+    a {
+      font-weight: bold;
+      margin-left: 5px;
+      color: #4e129c;
+      transition: 0.4s;
+      cursor: pointer;
+    }
+  }
 `
