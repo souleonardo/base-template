@@ -27,7 +27,10 @@ export const BtnDefault = styled(BtnDefaultIcons)`
   display: inline;
   cursor: pointer;
   border-radius: 5px;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 43c7fc2b1b324dbe2d4f90fbb1329267c020cf5b
   &hover {
     background-color: #4e129c;
   }
