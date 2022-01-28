@@ -13,11 +13,10 @@ function App() {
   if (user === null) {
     return <Login />
   }
-
   return (
     <BrowserRouter>
       <Header />
-      <Routes />4
+      <Routes />
       <Footer />
     </BrowserRouter>
   )
